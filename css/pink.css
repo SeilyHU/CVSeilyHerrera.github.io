@@ -1,0 +1,16 @@
+body{
+    background: url('../img/fondo.jpg');
+    background-attachment: fixed;
+}
+
+#logo{
+    background: peachpuff;
+}
+
+#menu ul li:hover{
+    background:peachpuff ;
+}
+
+.button-more{
+    background: peachpuff;
+}

@@ -1,0 +1,16 @@
+body{
+    background: url('../img/fondo2.jpg');
+    background-attachment: fixed;
+}
+
+#logo{
+    background: rgb(152, 240, 211);
+}
+
+#menu ul li:hover{
+    background:rgb(152, 240, 211) ;
+}
+
+.button-more{
+    background: rgb(152, 240, 211);
+}

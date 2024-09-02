@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head lang="esp">
+        <meta charset="utf-8"/>
+        <title>Proyecto con JavaScript</title>
+        <!--Estilos CSS-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <link id="theme" rel="stylesheet" type="text/css" href="css/pink.css"/>
+    
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.structure.css"/>
+        <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.structure.min.css"/>
+        <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.theme.min.css"/>
+
+        <script src="js/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+
+        <!--Slider-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <!--Moment-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/es.min.js"></script>
+        
+
+        <!--Plugin Validacion-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+        
+        <!--JAVASCRIPT-->
+         <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="selector-theme">
+            <div id="to-pink"></div>
+            <div id="to-violet"></div>
+            <div id="to-skyblue"></div>
+        </div>
+
+        <section id="global">
+            <!--Cabecera-->
+            <header>
+                <div id="logo">
+                    <h1>SEILY HERRERA</h1>
+                </div>
+                <div class="clearflix"></div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="reloj.html">CURRICULUM</a></li>
+                        <li><a href="about.html">SOBRE MI</a></li>
+                        <li><a href="validacion.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <!--Contenido-->
+            <section id="content">
+                <div id="box">
+                   <!--Cargar Formulario-->
+                   <h2>Contacto</h2>
+                   <form action="" method="POST" id="form_contact">
+                        <label for="name">Nombre</label>
+                        <input  type="text" name="name" data-validation="alphanumeric"/>
+
+                        <label for="surname">Apellidos</label>
+                        <input type="text" name="surname" data-validation="alphanumeric"/>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" data-validation="email"/>
+
+                        <label for="sex">Sexo</label>
+                        <select  name="sex" data-validation="required">
+                            <option value="men">Hombre</option>
+                            <option value="woman">Mujer</option>
+                        </select>
+
+                        <label for="date">Fecha de nacimiento</label>
+                    <input type="text" name="date" placeholder="dd-mm-yyyy" data-validation="date" data-validation-format="dd-mm-yyyy" id="date">
+
+                        <label for="years">Edad</label>
+                        <input type="number" name="years" data-validation="number"/>
+
+                        <input type="submit" value="Enviar"/>
+
+                   </form>
+                   
+                          
+                </div>
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4><span>GUATEMALA</span></h4>
+                        <img src="img/guatemala.jpg"/>
+                        <p>
+                            Guatemala es el hogar de la eterna primavera, un lugar
+                            magnifico con bellos paisajes, con variedad de Climas.
+                        </p>
+                    </div>
+
+                    <div id="login">
+                        <h4><span>Identificate</span></h4>
+                        <form>
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="FormName"/>
+
+                            <label for="email">Correo Electronico</label>
+                            <input type="text" name="email" id="FormEmail"/>
+
+                            <label for="password">Contraseña</label>
+                            <input type="text" name="password" id="FormPassword"/>
+
+                            <input type="submit" value="Entrar"/>
+                        </form>
+                    </div>
+                </aside>
+
+                <div id="clearflix"></div>
+            </section>
+
+        
+        </section>
+
+        <footer>
+            Master de JavaScript
+
+          
+            <a href="#" class="subir">Ir arriba</a>
+        </footer>
+
+
+    </body>
+</html>

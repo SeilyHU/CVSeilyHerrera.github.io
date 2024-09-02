@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.clearflix{
+    float: none;
+    clear: both;
+}
+#global{
+    width: 65% ;
+    margin: 0px auto;
+    margin-top: 30px ;
+    padding: 25px ;
+    background: whitesmoke;
+    box-shadow: 0px 0px 2px gray;
+    overflow: hidden;
+}
+
+
+#logo{
+    font-family: "Verdana","Arial";
+    font-size: 25px;
+    letter-spacing: normal;
+    line-height: 80px;
+    color:white;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#menu{
+    font-family: 'Century Gothic','Arial';
+    background: rgba(0, 0, 0, 0.658);
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+}
+
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+
+#menu a{
+    display:block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#posts{
+    width: 60%;
+    float: left;
+    font-family:'Century Gothic','Arial';
+}
+
+.post{
+    padding: 5px;
+}
+
+h2{
+    font-size: 30px;
+    color:black;
+    font-family:'Century Gothic','Arial';
+}
+
+.post .date{
+    display: block;
+    color:gray;
+    margin-top: 5px;
+}
+
+.post p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.button-more{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+#sidebar{
+    font-family: 'Century Gothic','Arial';
+    width: 31%;
+    float: right;
+}
+
+#sidebar h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 10 px;
+    color: black;
+}
+
+#sidebar h4 span{
+    background: whitesmoke;
+    padding: 5px;
+}
+
+#sidebar img{
+    width: 100%;
+}
+
+#sidebar p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type= "number"],
+select{
+    padding: 5px;
+    border-radius: 2px;
+    border-color: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form input[type="submit"]{
+    background: #eee;
+    padding: 5px;
+    border: 1px solid gray;
+    color: #333;
+    cursor: pointer;
+}
+
+footer{
+    font-family: 'Century Gothic', Arial ;
+    color:white;
+    height: 47px;
+    background: rgba(51,51, 51, 0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+
+.bx-wrapper,.bx-viewport{
+    height: 400px !important;
+}
+
+.galeria img{
+    width: 350px;
+    height: 0px auto;
+    zoom: 4;
+}
+
+#selector-theme{
+    position: fixed;
+    top:40%;
+    background: rgba(51,51, 51, 0.5);
+    width: 50px;
+    height: 100px;
+}
+
+#to-pink,#to-violet,
+#to-skyblue{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0% auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#to-pink{
+    background: peachpuff;
+}
+
+#to-violet{
+    background: rgb(250, 115, 250);
+}
+
+#to-skyblue{
+    background: rgb(152, 240, 211);
+}
+
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+#box{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+
+#acordeon{
+  margin-top: 20px;  
+}
+
+#reloj{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Century Gothic', Arial;
+    color: #333;
+    border: 5px dashed #333;
+    width: 30%;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+#form_contact{
+    width: 60%;
+    margin-top: 15px;
+    font-family: 'Century Gothic', Arial;
+}
+
+#form_contact label{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.form-error{
+    /*float: right;*/
+    font-size: 11px;
+    background: red;
+    color: white;
+    padding: 10px;
+    width: 100%;
+
+}
+
+#cv{
+    font-family: 'Century Gothic',Arial;
+    font-size: 20px;
+    border-top: 19px;
+}
+
+#CVdescargar{
+    font-family: 'Century Gothic',Arial;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+}
