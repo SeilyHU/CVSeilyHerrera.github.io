@@ -24,7 +24,7 @@ $(document).ready(function(){
             date: 'Publicado el '+ moment().day()+" de "+moment().format("MMMM") + ' del '+moment().format("YYYY"),
             content: 'Soy una estudiante apasionada de ingeniería en sistemas, originaria de '+
             'Guatemala. Hace dos años me adentre en el mundo de la programación, un campo que rapidamente se '
-            +'convirtió en una de mis mayores pasiones. Me gusta la porgramación porque me brinda la oportunidad '+
+            +'convirtió en una de mis mayores pasiones. Me gusta la programación porque me brinda la oportunidad '+
             'de crear y construir soluciones innovadoras. A lo largo de mi viaje académico y profesional, he encontrado un '+
             'reto significativo, pero también una fuente de constante aprendizaje y crecimiento personal. '+
             'Siempre estoy en busqueda de nuevas oportunidades para expandir mis conocimientos y habilidades en el desarrollo de '+
